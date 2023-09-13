@@ -181,9 +181,10 @@ nav a:hover {
 }
 
 .produtos {
-    display: block;
+    display: flex;
     position: relative;
-    width:100%;
+    justify-content: center;
+    width:90%;
     margin: 0 auto;
     flex-wrap:wrap;
 }
