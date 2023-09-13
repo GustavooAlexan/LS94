@@ -1,0 +1,405 @@
+body{
+    background: #061B3A;
+    color: #FFFFFF;
+    font-family: "Lato", sans-serif;;
+}
+
+header{
+    border-bottom: 2px solid black;/* (serve para por a borda somente na parte de baixo)*/
+}
+
+.caixa {
+    width: 100%;
+}
+
+.logotipo {
+    width: 110px;
+    top: 10px;
+    left: 10px;
+}
+
+.borda-inical {
+     top: 300px;
+     width: 100%;
+     border-top: 3.5px solid #FFFFFF;
+     border-color: #FFFFFF; 
+     border-size: 30px;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    right: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    
+}
+
+.borda-final {
+    width: 100%;
+    border-color: #000000;
+    position: relative;
+    top: 30px;
+}
+
+main {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.informativo {
+    position: relative;
+    right: 7%;
+    width: 50%;
+    text-align: right;
+}
+
+.informativo h1 {
+    font-size: 270%;
+    line-height: 66%;
+}
+
+.informativo p {
+    font-size: 143.19%;
+    line-height:80%;
+}
+
+.embaixo {
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+
+.informativo p {
+    display: block;
+}
+
+.preencha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+form{
+    width: 53%;
+    margin: 40px 0px;
+}
+.nome {
+    width: 100%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.nome label{
+    margin: 0px 53px 0px 0px;
+}
+
+.nome input {
+    width: 65%;
+    height: 30px;
+}
+
+.email {
+    width: 100%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.email label {
+    margin: 0px 57px 0px 0px;
+}
+
+.email input {
+    width: 65%;
+    height: 30px;
+}
+
+.tel{
+    width: 100%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.tel label {
+    margin: 0px 34.5px 0px 0px;
+}
+
+.tel input {
+    width: 65%;
+    height: 30px;
+}
+
+.msg{
+    width: 100%;
+    display: block;
+    margin: 30px 0px 0px;
+}
+
+.msg label {
+    margin: 0px 18px 0px 0px;
+    vertical-align: 70px;
+}
+
+.msg textarea {
+    width: 65%;
+ }
+
+.enviar2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.enviar2 button{
+    background: yellow;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    font-weight: bold;;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    width: 100%;
+    height: 15vh;
+    padding: 40px 0;
+}
+.geral{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.copyright {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+.rodape{
+    display: block;
+    position: relative;
+    width: 50%;
+}
+
+.rodape img {
+    width: 12rem;
+    margin: 5px;
+}
+
+.produzido {
+    width:50%;
+}
+.produzido img{
+    width:12rem;
+}
+
+@media screen and (max-width:768px){
+main {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.informativo {
+    position: relative;
+    width: 60%;
+    text-align: right;
+}
+
+.informativo h1 {
+    font-size: 270%;
+    line-height: 66%;
+}
+
+.informativo p {
+    font-size: 143.19%;
+    line-height:80%;
+}
+
+.embaixo {
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+
+.informativo p {
+    display: block;
+}
+
+.preencha {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+form{
+    width: 53%;
+    margin: 40px 0px;
+}
+.nome {
+    width: 100%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.nome label{
+    display: block;
+}
+
+.nome input {
+    width: 80%;
+    height: 30px;
+}
+
+.email {
+    width: 100%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.email label {
+    display: block;
+}
+
+.email input {
+    width: 80%;
+    height: 30px;
+}
+
+.tel{
+    width: 100%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.tel label {
+    display: block;
+}
+
+.tel input {
+    width: 80%;
+    height: 30px;
+}
+
+.msg{
+    width: 100%;
+    display: block;
+    margin: 30px 0px 0px;
+}
+
+.msg label {
+    display: block;
+}
+
+.msg textarea {
+    width: 80%;
+ }
+
+.enviar2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.enviar2 button{
+    background: yellow;
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+    font-weight: bold;;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    width: 100%;
+    height: 15vh;
+    padding: 40px 0;
+}
+.geral{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.copyright {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+
+.linharodape{
+    position: relative;
+    top: 790px;
+    font-size: 1px;
+    background-color: black;
+}
+
+.rodape{
+    display: block;
+    position: relative;
+    width: 50%;
+}
+
+.rodape img {
+    width: 12rem;
+    margin: 5px;
+}
+
+.produzido {
+    width:50%;
+}
+.produzido img{
+    width:12rem;
+}
+
+@media screen and (max-width:768px){
+.produzido img {
+    width:10rem;
+    position: relative;
+    top: 0.05px;
+}
+}
+
+.produzido img {
+    width:10rem;
+    position: relative;
+    top: 0.05px;
+}
+}

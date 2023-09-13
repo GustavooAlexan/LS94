@@ -1,0 +1,298 @@
+body{
+    background: #061B3A;
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+header{
+    border-bottom: 2px solid black;/* (serve para por a borda somente na parte de baixo)*/
+}
+
+main {
+    background-image: url('fundo.webp');
+    padding: 0;
+    width: 100%;
+    position: relative;
+    top: -20px;
+}
+
+.caixa {
+    display: block;
+    width:100%;
+    margin: 0 auto;
+}
+
+.logotipo {
+    width: 110px;
+    top: 10px;
+    left: 10px;
+}
+
+hr{
+     top: 300px;
+     width: 100%;
+     border-top: 3.5px solid #FFFFFF;
+     border-color: #FFFFFF; 
+     border-size: 30px;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    right: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    
+}
+.apresentacao{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.formulario{
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    margin: 30px 0px 0px;
+    position: relative;
+}
+
+form input {
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+form select {
+    width: 50%;
+    height: 30px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 100px;
+    margin: 30px 0px;
+    text-align: center;
+}
+}
+
+.timecasa {
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.timecasa label{
+    display: block;
+}
+
+.timecasa input {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+.timevisitante {
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.timevisitante input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.detalhamento {
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.detalhamento input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.datajogo{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.datajogo input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.hjogo{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.hjogo input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.nc{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.nc input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.cc{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.cc input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.ec{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.ec input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.telefone{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.telefone input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.pix{
+    width: 100%;
+    text-align: center;
+    line-height: 8px;
+    margin: 20px 0px;
+}
+
+
+.tc{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.tc input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.cp{
+    width: 50%;
+    display: block;
+    margin: 30px 0px;
+}
+
+.cp input {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.enviar2 {
+    display: flex;
+    justify-content: center;
+}
+
+.enviar2 button {
+    background: yellow;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 100px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    width: 100%;
+    height: 8vh;
+    padding: 40px 0;
+}
+.geral{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.copyright {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+.rodape{
+    display: block;
+    position: relative;
+    width: 50%;
+}
+
+.rodape img {
+    width: 12rem;
+    margin: 5px;
+}
+
+.produzido {
+    width:50%;
+}
+.produzido img{
+    width:12rem;
+}
+
+@media screen and (max-width:768px){
+.produzido img {
+    width:10rem;
+    position: relative;
+    top: 0.05px;
+}
+}

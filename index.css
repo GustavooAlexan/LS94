@@ -1,0 +1,355 @@
+body{
+    background: #061B3A;
+    font-family: "Lato", sans-serif;
+}
+
+header{
+    border-bottom: 2px solid black;/* (serve para por a borda somente na parte de baixo)*/
+}
+
+main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px;
+}
+
+.caixa {
+    display: block;
+    width:100%;
+    margin: 0 auto;
+}
+
+.logotipo {
+    width: 110px;
+    top: 10px;
+    left: 10px;
+}
+
+hr{
+     top: 300px;
+     width: 100%;
+     border-top: 3.5px solid #FFFFFF;
+     border-color: #FFFFFF; 
+     border-size: 30px;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    right: 30px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+    
+}
+
+.cumprimento{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 320%;
+    margin: 20px 0px 20px;
+    padding: 10px;
+}
+
+.cumprimento h2 {
+    margin: 10px;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 20px 0px 20px;
+    overflow: hidden;
+    display: block;
+    border-style: solid;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 5s;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #FFFFFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer; /*para aparecer as bolinhas de navegacão*/
+    transition: 1s;
+}
+
+/*espacamento entre os radios */
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+/*para o radios ficar branco quando o mouse ficar encima*/
+.manual-btn:hover {
+    background-color: #FFFFFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 100%;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: white;
+}
+
+.produtos {
+    display: block;
+    position: relative;
+    width:100%;
+    margin: 0 auto;
+    flex-wrap:wrap;
+}
+
+.caixaprodutos {
+    display: block;
+    width: 100%;
+    margin: 60px 0px 20px;
+    position: relative;
+}
+
+.caixaprodutos h2 {
+    font-size: 70px;
+    text-align: center;
+    margin: 3px;
+    color: #FFFFFF;
+}
+
+.produtos li {
+    background: #FFFFFF;
+    display: inline-block;
+    text-align: left;
+    width: 260px;
+    vertical-align: top;
+    margin: 30px 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: bold;
+    /* eu poderia utilizar somente "border" e nele informar os tres valores acima EX: "border:2px solid #000000"*/
+}
+
+.preco {
+   font-weight: bold; 
+   text-align: center;
+}
+
+.produtos li p h2 a{
+    color: black;
+}
+.descricao {
+    font-size: 18px;
+}
+
+.produtos2 {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #061B3A;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.produtos2:hover {
+    border-color: #C78C19;
+}
+
+
+.produtos a {
+    text-decoration: none;
+    color: white;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.vendidos {
+    background: #FFFFFF;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 20px;
+}
+
+.vendidos h2 {
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+}
+
+.vendidos2 li {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    right: 30px;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.vendidos2 p {;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.vendidos3 {
+    width: 98%;
+    text-align: center;
+    display: flex;
+    justify-content: center
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    width: 100%;
+    height: 15vh;
+    padding: 40px 0;
+}
+.geral{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.copyright {
+    color:#FFFFFF;
+    font-size: 13px;
+    margin: 0 0 10px;
+}
+
+.rodape{
+    display: block;
+    position: relative;
+    width: 50%;
+}
+
+.rodape img {
+    width: 12rem;
+    margin: 5px;
+}
+
+.produzido {
+    width:50%;
+}
+.produzido img{
+    width:12rem;
+    position: relative;
+    top: -30px;
+}
+
+@media screen and (max-width:768px){
+.produzido img {
+    width:10rem;
+    position: relative;
+    top: 0.05px;
+}
+}
